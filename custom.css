@@ -1,0 +1,127 @@
+
+.navbar-brand{
+    font-weight:700;
+    font-size: 2rem !important;
+    color:white !important;
+    opacity: 80%;
+}
+
+.navbar{
+    background-color: darkgoldenrod;
+}
+
+.navbar-nav a{
+    color:white ;
+}
+
+.btn-primary{
+    background-color: darkgoldenrod !important;
+    border:none !important;
+    
+    
+}
+
+.btn-primary:hover{
+    background-color: black !important;
+    
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.footer-section{
+    background-color: #000000;
+     margin-top:20px;
+
+}
+
+.footer-contact-details{
+    line-height: 0.3rem;
+}
+
+.footer-contact{
+    font-size:0.8rem;
+}
+
+footer h4{
+    color:white;
+}
+footer p{
+    color:white;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html, body {
+        height: 100%;
+    }
+
+    .about-content {
+        min-height: 100%;
+        margin-bottom: -350px;  
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+
+.faveBtn {
+    
+    color:grey;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} 
+.faveBtn.active {
+    color: red;  
+}
+
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ .carousel-item img {
+    height: 500px; 
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media (max-width: 992px) {
+    .carousel-item img {
+      height: 300px; 
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item img {
+      height: 200px; 
+    }
+  }
+
+.container .card img {
+    height: 400px; 
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media (max-width: 992px) {
+    .container .card img  {
+      height: 300px; 
+    }
+  }
+
+  @media (max-width: 576px) {
+    .container .card img {
+      height: 200px; 
+    }
+  }
