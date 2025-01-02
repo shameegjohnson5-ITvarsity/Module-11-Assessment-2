@@ -56,22 +56,11 @@ footer a{
     text-decoration: none;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    html, body {
-        height: 100%;
-    }
-
-    .about-content {
-        min-height: 100%;
-        margin-bottom: -350px;  
-    }
-
-    footer {
-        position: relative;
-        bottom: 0;
-    }
-}
-
+.about-content img {
+    height: 400px; 
+    object-fit: cover;
+    width: 100%;
+  }
 
 .faveBtn {
     
